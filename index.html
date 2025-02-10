@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maaf ya, Sayang ❤️</title>
+    <style>
+        body {
+            background-color: #ffdde1;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 20px;
+            animation: fadeIn 2s;
+            position: relative;
+            overflow: hidden;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .container, .romantic-box {
+            background: #ff99cc;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            display: block;
+            max-width: 400px;
+            margin: 20px auto;
+            animation: bounce 1.5s infinite;
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        h1, h2 {
+            color: white;
+        }
+        p {
+            font-size: 18px;
+            color: white;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: white;
+            color: #ff4081;
+            font-size: 16px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .button:hover {
+            background-color: #ff80ab;
+            color: white;
+        }
+
+        /* Animasi Kucing */
+        .cat {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            animation: catMove 5s infinite alternate ease-in-out;
+        }
+        @keyframes catMove {
+            from { transform: translateX(-50%) translateY(0); }
+            to { transform: translateX(-50%) translateY(-10px); }
+        }
+
+        /* Animasi Teks */
+        .romantic-text {
+            font-size: 20px;
+            color: white;
+            font-style: italic;
+            animation: fadeIn 2s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <!-- Blok permohonan maaf -->
+    <div class="container">
+        <h1>Sayang, Maafin Aku ya? 💖</h1>
+        <p>Aku bener-bener nyesel... Aku nggak mau kehilangan kamu.</p>
+        <p>Boleh aku dapat kesempatan buat memperbaiki semuanya? 😢</p>
+        <a href="love.html" class="button">Klik di sini</a>
+    </div>
+
+    <!-- Blok pesan romantis (sekarang di bawah) -->
+    <div class="romantic-box">
+        <h2>Pesan Romantis Untukmu ❤️</h2>
+        <p class="romantic-text">"Kamu itu seperti pelangi setelah hujan, selalu berhasil membuat hariku lebih indah." 🌈💖</p>
+        <p class="romantic-text">"Aku nggak butuh peta, karena setiap jalan pasti menuju ke kamu." 🛤️💕</p>
+        <p class="romantic-text">"Kucing aja kalau sayang sama tuannya selalu pulang, apalagi aku yang selalu ingin dekat sama kamu." 🐱💓</p>
+    </div>
+
+    <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" class="cat" alt="Cute Cat">
+</body>
+</html>
